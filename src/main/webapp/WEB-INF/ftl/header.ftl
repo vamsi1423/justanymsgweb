@@ -23,7 +23,7 @@
 				<input class="text-field" type="password" name="password" size="8" /><br />	
 			</div>
 			<div>
-				<a href="home.jam">Register</a>
+				<a href="register.jam">Register</a>
 			</div>	
 		</td>
 		<td align="left" style="margin-left: 30px;">

@@ -16,6 +16,13 @@
 		<put-attribute name="title" value="JAM - Home Page" />
 		<put-attribute name="body" value="/WEB-INF/ftl/home.ftl" />
 	</definition>
-
-
+	
+	<definition name="register" extends="defaultTemplate">
+		<put-attribute name="title" value="JAM - Registration" />
+		<put-attribute name="body" value="/WEB-INF/ftl/register.ftl" />
+	</definition>
+	<definition name="profile" extends="defaultTemplate">
+		<put-attribute name="title" value="JAM - My Profile" />
+		<put-attribute name="body" value="/WEB-INF/ftl/profile.ftl" />
+	</definition>
 </tiles-definitions>
