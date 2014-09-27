@@ -1,5 +1,5 @@
 <form action="submitRegister.jam" method="post">
-<table style="margin-left: 50px;margin-top: 50px;">
+<table style="margin-left: 50px;">
 	<tr>
 		<td class="label">
 			First Name:

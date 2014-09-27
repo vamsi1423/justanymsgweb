@@ -10,8 +10,22 @@
 <title><@tiles.getAsString name="title" /></title>
 </head>
 <body>
-	<@tiles.insertAttribute name="header" />
-	<@tiles.insertAttribute name="body" />
-	<@tiles.insertAttribute name="footer" />
+	<table width="100%" border="0">
+		<tr height="100px">
+			<td>
+				<@tiles.insertAttribute name="header" />
+			</td>
+		</tr>
+		<tr height="450px">
+			<td>
+				<@tiles.insertAttribute name="body" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<@tiles.insertAttribute name="footer" />
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
